@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/dinner.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <h1>LEZZETLİ YEMEKLER</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Menüler</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-container">
+        <input type="text" placeholder="Yemek Ara">
+        <button type="submit">Ara</button>
+    </div>
+
+    <div class="hero">
+        <h1>Lezzetli Yemeklerin Tek Adresi</h1>
+        <p>Lezzetli yemekler size bir tık uzakta..</p>
+        <a href="#" class="button">YEMEKLERİ KEŞFET</a>
+    </div>
+
+    <section class="promotion">
+        <h2>İNDİRİMLİ YEMEKLER</h2>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/ıskender.jpeg" alt="">
+                <h3>İSKENDER</h3>
+                <p>
+                    Yoğurt ve tereyağı ile soslanmış döner üzerine yapılan leziz bir yemek...
+                </p>
+                <span><del>370 TL</del> &nbsp; 300 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/cağ.jpeg" alt="">
+                <h3>CAĞ KEBAP</h3>
+                <p>
+                    Keçi veya kuzu etinden yapılan bir çeşit kebaptır. Önceden terbiye edilmiş etin yatık bir şişe geçirilip odun ateşi üzerinde pişirilmesiyle hazırlanır.Cağ adı verilen şişler kullanılarak servis yapılır.
+                </p>
+                <span><del>70 TL</del> &nbsp; 55 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/lahmacun.jpeg" alt="">
+                <h3>LAHMACUN</h3>
+                <p>
+                    İnce hamur üstüne dana kıyması, soğan baharatlarla yapılan yemek çeşidi.
+                </p>
+                <span><del>50 TL</del> &nbsp; 35 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2>POPÜLER YEMEKLER</h2>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/iclikofte.jpeg" alt="">
+                <h3>İÇLİ KÖFTE</h3>
+                <p>
+                    Bulgurun içine kıyma konularak hazırlanan, kızartılarak servis edilen bir lezet.
+                </p>
+                <span>100 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/imambayildi.jpeg" alt="">
+                <h3>İMAM BAYILDI</h3>
+                <p>
+                    Biber ve domatesle doldurulmuş, zeytinyağla pişirilen bir sebze yemeği.
+                </p>
+                <span>150 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/mantı.jpeg" alt="">
+                <h3>MANTI</h3>
+                <p>
+                   Açılan yufka kareler şeklinde kesilir, her karenin ortasına kıymalı harçtan küçük bir parça yerleştirilir, bohça şeklinde kapatılır ve pişirilip servis edilir.
+                </p>
+                <span>70 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+
+                <span class="tag">Popüler</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="menu">
+        <h2>TÜM YEMEKLER</h2>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/kurufasulye.jpeg" alt="">
+                <h3>KURU FASULYE</h3>
+                <P>
+                    Kuru fasulyenin haşlanarak, pişirilmesiyle oluşturulan bir yemek.
+
+                </P>
+            </div>
+            <span>25 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/pide.jpeg" alt="">
+                <h3>PİDE</h3>
+                <P>
+                    Üzerine sucuk, kaşar, kıyma veya kuşbaşı et konulan, açık/kapalı hamurlu bir yemek.
+                </P>
+            </div>
+            <span>60 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/baklava.jpeg" alt="">
+                <h3>BAKLAVA</h3>
+                <P>
+                    Fıstık, şekerle ve ince yufkayla hazırlanan bir tatlı çeşididir.
+                </P>
+            </div>
+            <span>15 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/patlicankebap.jpeg" alt="">
+                <h3>PATLICAN KEBABI</h3>
+                <P>
+                    Patlıcanların közlenip üzerine et konulmasıyla yapılan bir kebap çeşididir.
+                </P>
+            </div>
+            <span>25 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/bulgurpilav.jpeg" alt="">
+                <h3>BULGUR PİLAVI</h3>
+                <P>
+                    İnce kırılmış bulguru pişirerek elde edilen bir pilav çeşididir.
+                </P>
+            </div>
+            <span>20 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/yapraksarma.jpeg" alt="">
+                <h3>ETLİ YAPRAK SARMA</h3>
+                <P>
+                    İç harç olarak kıyma ve pirinç konulan yapraklar ile hazırlanan bir yemek çeşididir.
+                </P>
+            </div>
+            <span>50 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/kurukofte.jpeg" alt="">
+                <h3>KURU KÖFTE</h3>
+                <P>
+                    Kıyma, soğan, ekmek içi ve baharatlarla yoğrulup kızartılan bir köfte türü.
+                </P>
+            </div>
+            <span>15 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/hamsilipilav.jpeg" alt="">
+                <h3>HAMSİLİ PİLAV</h3>
+                <P>
+                    Pirincin üstüne dizilmiş hamsi filetoları ile yapılan, lezzetli bir pilav türü.
+                </P>
+            </div>
+            <span>35 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/mevsimsalata.jpeg" alt="">
+                <h3>MEVSİM SALATA</h3>
+                <P>
+                    Marulları en alta doğrana, üzerine havuç jülyen doğradıktan sonra turp, mor lahana, maydanoz, dereotu eklenen. Çeri domates ile süslenen yağ, limon, tuz üzerine gezdirilen bir salata çeşididir.
+                </P>
+            </div>
+            <span>30 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/beyrancorbası.jpeg" alt="">
+                <h3>BEYRAN ÇORBASI</h3>
+                <P>
+                    Bulgur, et ve baharatlarla hazırlanan genellikle kahvaltılar da tercih edilen bir Türk çorbasıdır.
+                </P>
+            </div>
+            <span>30 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/etlinohut.jpeg" alt="">
+                <h3>ETLİ NOHUT</h3>
+                <P>
+                    Nohutun kıyma ile birlikte pişirilmesiyle hazırlanan bir yemek.
+                </P>
+            </div>
+            <span>20 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+
+            <div class="menu-item">
+                <img src="img/yogurtlukabak.jpeg" alt="">
+                <h3>YOĞURTLU KABAK</h3>
+                <P>
+                    Kabakların rendelenip, yoğurtla servis edilmesiyle yapılan bir meze türü.
+                </P>
+            </div>
+            <span>15 TL</span>
+            <button class="order-button">Sipariş Ver</button>
+            <div class="menu-item">
+
+        </div>
+    </section> -->
+
+    <footer class="footer">
+        <p> 
+            &copy; 2024 Lezzetli Yemekler Web Sitesi |
+            <a href="" target="_blank">Melek Aksu</a>
+        </p>
+    </footer>
+</body>
+</html>
